@@ -105,6 +105,7 @@ def main():
         webbrowser.get(chromepath).open(url)     
     elif 'my website' in query.lower():
         url="https://ucxzhgycdg8hi6glxjtrzg-on.drv.tw/Online%20shoe%20shopping/prakhar1.html"
+        #My personal static website hosted
         chromepath="C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s"
         webbrowser.get(chromepath).open(url)             
     elif 'open sublime text' in query.lower():
@@ -131,7 +132,7 @@ def main():
         cm=takeCommand().lower() 
         webbrowser.open(f"{cm}")
     # elif 'send message' in query.lower():
-    #     kit.sendwhatmsg("+919973950290","Jarvis in process Sir",2,5)            
+    #     kit.sendwhatmsg("Number","Jarvis in process Sir",2,5)            
             # cv2.destroyAllWindows()
     # elif "ip address" in query:
     #     ip=get('https://api.ipify.org').text

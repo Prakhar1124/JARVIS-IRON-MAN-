@@ -140,7 +140,7 @@ def main():
 #     try:
 #         speak("what should i send")
 #         content=takeCommand()
-#         to=mishra.prakhar309@gmail.com
+#         to=myemail@gmail.com
 #         sendEmail(to,content) 
 #         speak("Email has been sent successfully")
 #     except Exception as e:
